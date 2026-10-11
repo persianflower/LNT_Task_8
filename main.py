@@ -9,7 +9,7 @@ import streamlit as st
 import cv2
 import joblib
 
-url = "http://127.0.0.1:8000/predict"
+url = "http://127.0.0.1:8080/predict"
 
 @st.cache_resource
 def load_model():
