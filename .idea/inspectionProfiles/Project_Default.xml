@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="absl-py" />
+          <option value="astunparse" />
+          <option value="dm-tree" />
+          <option value="docstring_parser" />
+          <option value="einops" />
+          <option value="etils" />
+          <option value="flatbuffers" />
+          <option value="gast" />
+          <option value="google-pasta" />
+          <option value="googleapis-common-protos" />
+          <option value="grpcio" />
+          <option value="h5py" />
+          <option value="immutabledict" />
+          <option value="importlib_resources" />
+          <option value="keras-nightly" />
+          <option value="libclang" />
+          <option value="matplotlib" />
+          <option value="ml_dtypes" />
+          <option value="namex" />
+          <option value="opt_einsum" />
+          <option value="optree" />
+          <option value="packaging" />
+          <option value="promise" />
+          <option value="pyls-spyder" />
+          <option value="PyQt6" />
+          <option value="PyQt6-WebEngine" />
+          <option value="PySide6" />
+          <option value="setuptools" />
+          <option value="shiboken6" />
+          <option value="simple-parsing" />
+          <option value="tensorflow" />
+          <option value="tensorflow-datasets" />
+          <option value="tensorflow-metadata" />
+          <option value="termcolor" />
+          <option value="wheel" />
+          <option value="numpy" />
+          <option value="pandas" />
+          <option value="Flask" />
+          <option value="keras" />
+          <option value="requests" />
+          <option value="opencv-python-headless" />
+          <option value="pillow" />
+          <option value="streamlit" />
+          <option value="GitPython" />
+          <option value="joblib" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
