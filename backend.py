@@ -15,7 +15,7 @@ with open('fashion_model.pkl','rb') as f:
 def home():
     return "Fashion data prediction app working!"
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict_json',methods=['POST'])
 def predict_json():
     try:
         data = request.get_json()
@@ -35,6 +35,6 @@ def predict_json():
         return jsonify({"error":str(e)}),400
 
 if __name__=="__main__":
-    app.run(debug=True,port=8501)
+    app.run(debug=True,port=5000)
 
 

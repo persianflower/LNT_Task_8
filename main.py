@@ -9,7 +9,7 @@ import streamlit as st
 import cv2
 import joblib
 
-url = "http://127.0.0.1:8501/predict"
+url = "http://127.0.0.1:5000/predict_json"
 
 @st.cache_resource
 def load_model():
@@ -38,8 +38,8 @@ def main():
             data = data / 255.0
             # Perform prediction
             response = requests.post(url,json=new_img.tolist())
-            prediction = response.json()
-            predicted_class = int(np.argmax(prediction))
+            #prediction = response.json()
+            predicted_class = int(np.argmax(response))
             labels=[
                 "Tshirt/Top",
                 "Trouser",
